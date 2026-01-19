@@ -6,6 +6,9 @@ export const Header = () => {
           <img src="/image1.png" className="w-24" alt="" />
           <div class="space-x-6">
             <a href="#productos" class="hover:text-[#FF0000]">
+              Nosotros
+            </a>
+            <a href="#productos" class="hover:text-[#FF0000]">
               Productos
             </a>
             <a href="#contacto" class="hover:text-[#FF0000]">
