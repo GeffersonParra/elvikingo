@@ -9,8 +9,21 @@
     font-style: normal;
     font-display: swap;
   }
+
+  @font-face {
+    font-family: "yorkshire";
+    src: url("/yorkshire.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
 }
 
 @theme {
   --font-jersey: "jersey", sans-serif;
+  --font-yorkshire: "yorkshire", sans-serif;
+}
+
+.btn-primary {
+  @apply bg-[#FF0000] py-4 px-7 text-2xl text-white rounded-4xl cursor-pointer hover:bg-[#C60000]
 }
