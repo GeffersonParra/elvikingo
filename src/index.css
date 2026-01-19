@@ -17,11 +17,20 @@
     font-style: normal;
     font-display: swap;
   }
+
+  @font-face {
+    font-family: "montserrat-regular";
+    src: url("/Montserrat-Regular.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
 }
 
 @theme {
   --font-jersey: "jersey", sans-serif;
   --font-yorkshire: "yorkshire", sans-serif;
+  --font-montserrat: "montserrat-regular", sans-serif;
 }
 
 .btn-primary {
@@ -32,6 +41,55 @@
   @apply bg-white py-4 px-7 text-2xl border text-black rounded-4xl cursor-pointer hover:bg-[#F0F0F0] transition-colors duration-200
 }
 
-.btn-section {
-  
+.active-paint::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #D60000;
+  -webkit-mask-image: url("/stroke.png");
+  mask-image: url("/stroke.png");
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  z-index: -1;
+  clip-path: inset(0 100% 0 0); 
+  animation: paint-reveal 1s cubic-bezier(0.645, 0.045, 0.355, 1) forwards;
+}
+
+.active-paint::after {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: -40px;
+  width: 35px;
+  height: 45px;
+  background-image: url("/roller2.png");
+  background-size: 45px;
+  background-repeat: no-repeat;
+  z-index: 1;
+  animation: roller-head 1s cubic-bezier(0.645, 0.045, 0.355, 1) forwards;
+}
+
+@keyframes paint-reveal {
+  0% {
+    clip-path: inset(0 100% 0 0);
+  }
+  100% {
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+@keyframes roller-head {
+  0% { 
+    left: -10px; 
+    opacity: 1; 
+  }
+  100% { 
+    left: 100%;
+    opacity: 1; 
+  }
 }

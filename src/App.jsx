@@ -1,16 +1,21 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { Header } from './components/Header'
 import { Home } from './Home'
 import { Footer } from './components/Footer'
-import { Products } from './Products'
+import { AboutUs } from './AboutUs'
 import './App.css'
-
 function App() {
   return (
-    <>
+    <BrowserRouter>
       <Header />
-      <Home />
+      <main>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<AboutUs />} />
+        </Routes>
+      </main>
       <Footer />
-    </>
+    </BrowserRouter>
   )
 }
 

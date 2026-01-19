@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 export const Home = () => {
   return (
@@ -29,18 +30,18 @@ export const Home = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1.2, ease: "easeOut" }}
           >
-            <button className="btn-primary mt-12 font-jersey">Catalogo</button>
-            <button className="btn-secondary mt-12 font-jersey">
+            <Link to={"/products"} className="btn-primary mt-12 font-jersey">Catalogo</Link>
+            <Link to={"/contact"} className="btn-secondary mt-12 font-jersey">
               Contacto
-            </button>
+            </Link>
           </motion.div>
         </div>
-        <motion.div 
-            initial={{ opacity: 0, x: 500 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8, ease: "easeOut" }}
+        <motion.div
+          initial={{ opacity: 0, x: 500 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
         >
-        <img src="/image2.png" className="w-[36rem] my-auto mr-auto" alt="" />
+          <img src="/image2.png" className="w-[36rem] my-auto mr-auto" alt="" />
         </motion.div>
       </div>
     </div>
