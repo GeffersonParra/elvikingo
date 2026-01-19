@@ -27,3 +27,7 @@
 .btn-primary {
   @apply bg-[#FF0000] py-4 px-7 text-2xl text-white rounded-4xl cursor-pointer hover:bg-[#C60000]
 }
+
+.btn-secondary {
+  @apply bg-white py-4 px-7 text-2xl border text-black rounded-4xl cursor-pointer hover:bg-[#F0F0F0]
+}
