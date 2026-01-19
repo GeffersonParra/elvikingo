@@ -24,8 +24,8 @@ export const Home = () => {
             </motion.div>
           </motion.div>
           <motion.div
-            className="flex gap-4 justify-center btn-section"
-            initial={{ opacity: 0, y: 500 }}
+            className="flex gap-4 justify-center btn-section mt-4"
+            initial={{ opacity: 0, y: 300 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1.2, ease: "easeOut" }}
           >
