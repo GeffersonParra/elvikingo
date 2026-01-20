@@ -42,7 +42,6 @@
 }
 
 input {
-  width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
@@ -67,13 +66,19 @@ input::placeholder {
   font-weight: 400;
 }
 
+.active-paint {
+  position: relative;
+  display: inline-block;
+  z-index: 10;
+}
+
 .active-paint::before {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 110%;
   background-color: #D60000;
   -webkit-mask-image: url("/stroke.png");
   mask-image: url("/stroke.png");
@@ -83,41 +88,58 @@ input::placeholder {
   mask-repeat: no-repeat;
   z-index: -1;
   clip-path: inset(0 100% 0 0); 
-  animation: paint-reveal 1s cubic-bezier(0.645, 0.045, 0.355, 1) forwards;
+  animation: paint-reveal 0.6s cubic-bezier(0.645, 0.045, 0.355, 1) 0.5s forwards;
 }
 
 .active-paint::after {
   content: "";
   position: absolute;
-  top: -5px;
+  top: 50%;
+  transform: translateY(-50%);
   left: -40px;
-  width: 35px;
-  height: 45px;
+  width: 50px;
+  height: 50px;
   background-image: url("/roller2.png");
-  background-size: 45px;
+  background-size: contain;
   background-repeat: no-repeat;
-  z-index: 1;
-  animation: roller-head 1s cubic-bezier(0.645, 0.045, 0.355, 1) forwards;
+  z-index: 20;
+  opacity: 0;
+  animation: roller-head 0.6s cubic-bezier(0.645, 0.045, 0.355, 1) 0.5s forwards;
+}
+
+.active-paint-title {
+  position: relative;
+  z-index: 10;
+}
+
+.active-paint-title::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -60px;
+  width: 120%;
+  height: 110%;
+  background-color: var(--color-text);
+  -webkit-mask-image: url("/stroke.png");
+  mask-image: url("/stroke.png");
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  z-index: -1;
+  clip-path: inset(0 100% 0 0); 
+  animation: paint-reveal 0.6s cubic-bezier(0.645, 0.045, 0.355, 1) 0.5s forwards;
 }
 
 @keyframes paint-reveal {
-  0% {
-    clip-path: inset(0 100% 0 0);
-  }
-  100% {
-    clip-path: inset(0 0 0 0);
-  }
+  0% { clip-path: inset(0 100% 0 0); }
+  100% { clip-path: inset(0 0 0 0); }
 }
 
 @keyframes roller-head {
-  0% { 
-    left: -10px; 
-    opacity: 1; 
-  }
-  100% { 
-    left: 100%;
-    opacity: 1; 
-  }
+  0% { left: -10px; opacity: 1; }
+  90% { opacity: 1; }
+  100% { left: 100%; opacity: 0; }
 }
 
 .card {
@@ -132,8 +154,24 @@ input::placeholder {
   @apply hover:border-[#092b4e]
 }
 
+.industrial {
+  @apply hover:border-[#FF2F00]
+}
+
+.ovejero {
+  @apply hover:border-[#ECE9D1]
+}
+
 .espuma {
   @apply hover:border-[#e5aeaf]
+}
+
+.premium {
+  @apply hover:border-[#FFDD00]
+}
+
+.texturizado {
+  @apply hover:border-[#B50000]
 }
 
 .badge-epoxico {
@@ -144,12 +182,24 @@ input::placeholder {
   @apply border border-[#092b4e] rounded-2xl px-2 bg-[#092b4e]/90 text-white
 }
 
+.badge-industrial {
+  @apply border border-[#FF2F00] rounded-2xl px-2 bg-[#FF2F00]/90 text-white
+}
+
+.badge-ovejero {
+  @apply border border-[#ECE9D1] rounded-2xl px-2 bg-[#ECE9D1]/90 text-black
+}
+
 .badge-espuma {
   @apply border border-[#e5aeaf] rounded-2xl px-2 bg-[#e5aeaf]/90 text-white
 }
 
 .badge-premium {
-  @apply border border-[#FF0000] rounded-2xl px-2 bg-[#FF0000]/70 text-white
+  @apply border border-[#FFDD00] rounded-2xl px-2 bg-[#FFDD00]/70 text-black
+}
+
+.badge-texturizado {
+  @apply border border-[#B50000] rounded-2xl px-2 bg-[#B50000]/70 text-white
 }
 
 .view-btn {

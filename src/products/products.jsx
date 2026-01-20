@@ -9,7 +9,12 @@ export const DB = [
           "/products/epoxico/1_180.jpg",
           "/products/epoxico/1_hold.png"
         ],
-        "description": "El rodillo textura es ideal para crear diseños y efectos decorativos texturizados en trabajos de pintura. Fabricado con material resistente y poroso, facilita la aplicación de pinturas estructuradas o pastas decorativas, logrando acabados únicos y llamativos. Su diseño es especialmente adecuado para superficies lisas, donde se busca un contraste visual y táctil.",
+        "description": "Hecho en felpa epóxica de poliéster de 15mm, ideal para pintura epóxica y tráfico, pinturas de aceite y pinturas de vinilo a base de agua.",
+        "weight": "150gr.",
+        "long": "22,86cm",
+        "height": "30cm",
+        "density": "15mm",
+        "wire": "5,14mm",
     },
     {
         "name": "Rodillo Microfibra",
@@ -21,7 +26,12 @@ export const DB = [
           "/products/microfibra/1_180.png",
           "/products/microfibra/1_hold.png"
         ],
-        "description": "El rodillo textura es ideal para crear diseños y efectos decorativos texturizados en trabajos de pintura. Fabricado con material resistente y poroso, facilita la aplicación de pinturas estructuradas o pastas decorativas, logrando acabados únicos y llamativos. Su diseño es especialmente adecuado para superficies lisas, donde se busca un contraste visual y táctil.",
+        "description": "Hecho en Felpa micro fibra de poliéster de 15mm, ideal para pinturas de poliuretano, pintura epóxica, pintura acrílica, pintura de poliéster, pinturas de aceite y pinturas de vinilo a base de agua.",
+        "weight": "150gr.",
+        "long": "22,86cm",
+        "height": "30cm",
+        "density": "15mm",
+        "wire": "5,14mm",
     },
     {
         "name": "Rodillo Microfibra",
@@ -33,7 +43,12 @@ export const DB = [
           "/products/microfibra/2_180.png",
           "/products/microfibra/1_hold.png"
         ],
-        "description": "El rodillo textura es ideal para crear diseños y efectos decorativos texturizados en trabajos de pintura. Fabricado con material resistente y poroso, facilita la aplicación de pinturas estructuradas o pastas decorativas, logrando acabados únicos y llamativos. Su diseño es especialmente adecuado para superficies lisas, donde se busca un contraste visual y táctil.",
+        "description": "Hecho en Felpa micro fibra de poliéster de 15mm, ideal para pinturas de poliuretano, pintura epóxica, pintura acrílica, pintura de poliéster, pinturas de aceite y pinturas de vinilo a base de agua.",
+        "weight": "130gr.",
+        "long": "15,24cm",
+        "height": "30cm",
+        "density": "15mm",
+        "wire": "5,14mm",
     },
     {
         "name": "Rodillo Microfibra",
@@ -45,7 +60,12 @@ export const DB = [
           "/products/microfibra/3_180.png",
           "/products/microfibra/3_hold.png"
         ],
-        "description": "El rodillo textura es ideal para crear diseños y efectos decorativos texturizados en trabajos de pintura. Fabricado con material resistente y poroso, facilita la aplicación de pinturas estructuradas o pastas decorativas, logrando acabados únicos y llamativos. Su diseño es especialmente adecuado para superficies lisas, donde se busca un contraste visual y táctil.",
+        "description": "Hecho en Felpa micro fibra de poliéster de 15mm, ideal para pinturas de poliuretano, pintura epóxica, pintura acrílica, pintura de poliéster, pinturas de aceite y pinturas de vinilo a base de agua.",
+        "weight": "120gr.",
+        "long": "12,7cm",
+        "height": "28cm",
+        "density": "15mm",
+        "wire": "5,14mm",
     },
     {
         "name": "Rodillo Microfibra",
@@ -55,21 +75,167 @@ export const DB = [
           "/products/microfibra/4_0.png",
           "/products/microfibra/1_90.png",
           "/products/microfibra/4_180.png",
-          "/products/microfibra/1_hold.png"
+          "/products/microfibra/4_hold.png"
         ],
-        "description": "El rodillo textura es ideal para crear diseños y efectos decorativos texturizados en trabajos de pintura. Fabricado con material resistente y poroso, facilita la aplicación de pinturas estructuradas o pastas decorativas, logrando acabados únicos y llamativos. Su diseño es especialmente adecuado para superficies lisas, donde se busca un contraste visual y táctil.",
+        "description": "Hecho en Felpa micro fibra de poliéster de 15mm, ideal para pinturas de poliuretano, pintura epóxica, pintura acrílica, pintura de poliéster, pinturas de aceite y pinturas de vinilo a base de agua.",
+        "weight": "110gr.",
+        "long": "10,16cm",
+        "height": "23cm",
+        "density": "15mm",
+        "wire": "5,14mm",
     },
     {
         "name": "Rodillo Microfibra",
         "reference": "3″",
         "category": "Microfibra",
         "photos": [
-          "/products/microfibra/5_0.png",
-          "/products/microfibra/1_90.png",
+          "/products/microfibra/5_2.png",
+          "/products/microfibra/5_90.png",
           "/products/microfibra/5_180.png",
-          "/products/microfibra/1_hold.png"
+          "/products/microfibra/5_hold.png"
         ],
-        "description": "El rodillo textura es ideal para crear diseños y efectos decorativos texturizados en trabajos de pintura. Fabricado con material resistente y poroso, facilita la aplicación de pinturas estructuradas o pastas decorativas, logrando acabados únicos y llamativos. Su diseño es especialmente adecuado para superficies lisas, donde se busca un contraste visual y táctil.",
+        "description": "Hecho en Felpa micro fibra de poliéster de 15mm, ideal para pinturas de poliuretano, pintura epóxica, pintura acrílica, pintura de poliéster, pinturas de aceite y pinturas de vinilo a base de agua.",
+        "weight": "100gr.",
+        "long": "7,62cm",
+        "height": "23cm",
+        "density": "15mm",
+        "wire": "5,14mm",
+    },
+    {
+        "name": "Rodillo Microfibra",
+        "reference": "2″",
+        "category": "Microfibra",
+        "photos": [
+          "/products/microfibra/6_0.png",
+          "/products/microfibra/6_90.png",
+          "/products/microfibra/6_180.png",
+          "/products/microfibra/6_hold.png"
+        ],
+        "description": "Hecho en Felpa micro fibra de poliéster de 15mm, ideal para pinturas de poliuretano, pintura epóxica, pintura acrílica, pintura de poliéster, pinturas de aceite y pinturas de vinilo a base de agua.",
+        "weight": "85gr.",
+        "long": "5,08cm",
+        "height": "20cm",
+        "density": "15mm",
+        "wire": "5,14mm",
+    },
+    {
+        "name": "Rodillo Microfibra",
+        "reference": "1″",
+        "category": "Microfibra",
+        "photos": [
+          "/products/microfibra/7_0.png",
+          "/products/microfibra/6_90.png",
+          "/products/microfibra/7_180.png",
+          "/products/microfibra/6_hold.png"
+        ],
+        "description": "Hecho en Felpa micro fibra de poliéster de 15mm, ideal para pinturas de poliuretano, pintura epóxica, pintura acrílica, pintura de poliéster, pinturas de aceite y pinturas de vinilo a base de agua.",
+        "weight": "80gr.",
+        "long": "2,54cm",
+        "height": "20cm",
+        "density": "15mm",
+        "wire": "5,14mm",
+    },
+    {
+        "name": "Rodillo Industrial",
+        "category": "Industrial",
+        "photos": [
+          "/products/industrial/9_0.png",
+          "/products/industrial/9_90.png",
+          "/products/industrial/9_180.png",
+          "/products/industrial/9_hold.png",
+        ],
+        "description": "Hecho en Felpa poliéster tipo liviano de 15mm, ideal para pinturas y vinilos a base de agua.",
+        "weight": "150gr.",
+        "long": "22,86cm",
+        "height": "30cm",
+        "density": "15mm",
+        "wire": "5,14mm",
+        "reference": "9″",
+    },
+    {
+        "name": "Rodillo Industrial",
+        "category": "Industrial",
+        "photos": [
+          "/products/industrial/7_0.png",
+          "/products/industrial/9_90.png",
+          "/products/industrial/7_180.png",
+          "/products/industrial/7_hold.png",
+        ],
+        "description": "Hecho en Felpa poliéster tipo liviano de 15mm, ideal para pinturas y vinilos a base de agua.",
+        "weight": "140gr.",
+        "long": "17,78cm",
+        "height": "30cm",
+        "density": "15mm",
+        "wire": "5,14mm",
+        "reference": "7″",
+    },
+    {
+        "name": "Rodillo Ovejero",
+        "category": "Ovejero",
+        "photos": [
+          "/products/ovejero/9_0.png",
+          "/products/ovejero/9_90.png",
+          "/products/ovejero/9_180.png",
+          "/products/ovejero/9_hold.png",
+        ],
+        "description": "Hecho en felpa ovejera de poliéster de 15mm, ideal para pintura epóxica y tráfico, pintura de aceite y pinturas de vinilos a base de agua.",
+        "weight": "150gr.",
+        "long": "22,86cm",
+        "height": "30cm",
+        "density": "15mm",
+        "wire": "5,14mm",
+        "reference": "9″",
+    },
+    {
+        "name": "Rodillo Ovejero",
+        "category": "Ovejero",
+        "photos": [
+          "/products/ovejero/7_0.png",
+          "/products/ovejero/9_90.png",
+          "/products/ovejero/7_180.png",
+          "/products/ovejero/7_hold.png",
+        ],
+        "description": "Hecho en felpa ovejera de poliéster de 15mm, ideal para pintura epóxica y tráfico, pintura de aceite y pinturas de vinilos a base de agua.",
+        "weight": "140gr.",
+        "long": "17,78cm",
+        "height": "30cm",
+        "density": "15mm",
+        "wire": "5,14mm",
+        "reference": "7″",
+    },
+    {
+        "name": "Rodillo Premium",
+        "category": "Premium",
+        "photos": [
+          "/products/premium/9_0.png",
+          "/products/premium/9_90.png",
+          "/products/premium/9_180.png",
+          "/products/premium/9_hold.png",
+        ],
+        "description": "Hecho en microfibra de poliéster de alta densidad de 15mm, ideal para Pintura de poliuretano, pintura epóxica, pintura acrílica, pintura de poliéster, pintura de aceite y pinturas de vinilo a base de agua.",
+        "weight": "150gr.",
+        "long": "22,86cm",
+        "height": "30cm",
+        "density": "15mm",
+        "wire": "5,14mm",
+        "reference": "9″",
+    },
+    {
+        "name": "Rodillo Texturizado",
+        "category": "Texturizado",
+        "photos": [
+          "/products/texturizado/9_0.png",
+          "/products/texturizado/9_90.png",
+          "/products/texturizado/9_180.png",
+          "/products/texturizado/9_hold.png",
+        ],
+        "description": "Rodillo hecho en dibra de goma de 15mm, ideal para la aplicación de carraplast.",
+        "weight": "150gr.",
+        "long": "22,86cm",
+        "height": "30cm",
+        "density": "15mm",
+        "wire": "5,14mm",
+        "reference": "9″",
     },
     {
         "name": "Rodillo De Espuma",
@@ -80,193 +246,12 @@ export const DB = [
           "/products/espuma/1_180.png",
           "/products/espuma/1_hold.png",
         ],
-        "description": "No hay descripción de este producto.",
-        "references": [
-            "Rodillo De Prueba 9\"\"",
-            "Rodillo De Prueba 7\"\"",
-            "Rodillo De Prueba 5\"\"",
-            "Rodillo De Prueba 3\"\"",
-            "Rodillo De Prueba 2\"\""
-        ]
-    },
-    {
-        "name": "Rodillo De Espuma",
-        "category": "Espuma",
-        "photos": [
-          "/products/espuma/1_0.png",
-          "/products/espuma/1_90.png",
-          "/products/espuma/1_180.png",
-          "/products/espuma/1_hold.png",
-        ],
-        "description": "No hay descripción de este producto.",
-        "references": [
-            "Rodillo De Prueba 9\"\"",
-            "Rodillo De Prueba 7\"\"",
-            "Rodillo De Prueba 5\"\"",
-            "Rodillo De Prueba 3\"\"",
-            "Rodillo De Prueba 2\"\""
-        ]
-    },
-    {
-        "name": "Rodillo De Espuma",
-        "category": "Espuma",
-        "photos": [
-          "/products/espuma/1_0.png",
-          "/products/espuma/1_90.png",
-          "/products/espuma/1_180.png",
-          "/products/espuma/1_hold.png",
-        ],
-        "description": "No hay descripción de este producto.",
-        "references": [
-            "Rodillo De Prueba 9\"\"",
-            "Rodillo De Prueba 7\"\"",
-            "Rodillo De Prueba 5\"\"",
-            "Rodillo De Prueba 3\"\"",
-            "Rodillo De Prueba 2\"\""
-        ]
-    },
-    {
-        "name": "Rodillo De Espuma",
-        "category": "Espuma",
-        "photos": [
-          "/products/espuma/1_0.png",
-          "/products/espuma/1_90.png",
-          "/products/espuma/1_180.png",
-          "/products/espuma/1_hold.png",
-        ],
-        "description": "No hay descripción de este producto.",
-        "references": [
-            "Rodillo De Prueba 9\"\"",
-            "Rodillo De Prueba 7\"\"",
-            "Rodillo De Prueba 5\"\"",
-            "Rodillo De Prueba 3\"\"",
-            "Rodillo De Prueba 2\"\""
-        ]
-    },
-    {
-        "name": "Rodillo De Espuma",
-        "category": "Espuma",
-        "photos": [
-          "/products/espuma/1_0.png",
-          "/products/espuma/1_90.png",
-          "/products/espuma/1_180.png",
-          "/products/espuma/1_hold.png",
-        ],
-        "description": "No hay descripción de este producto.",
-        "references": [
-            "Rodillo De Prueba 9\"\"",
-            "Rodillo De Prueba 7\"\"",
-            "Rodillo De Prueba 5\"\"",
-            "Rodillo De Prueba 3\"\"",
-            "Rodillo De Prueba 2\"\""
-        ]
-    },
-    {
-        "name": "Rodillo De Espuma",
-        "category": "Espuma",
-        "photos": [
-          "/products/espuma/1_0.png",
-          "/products/espuma/1_90.png",
-          "/products/espuma/1_180.png",
-          "/products/espuma/1_hold.png",
-        ],
-        "description": "No hay descripción de este producto.",
-        "references": [
-            "Rodillo De Prueba 9\"\"",
-            "Rodillo De Prueba 7\"\"",
-            "Rodillo De Prueba 5\"\"",
-            "Rodillo De Prueba 3\"\"",
-            "Rodillo De Prueba 2\"\""
-        ]
-    },
-    {
-        "name": "Rodillo De Espuma",
-        "category": "Espuma",
-        "photos": [
-          "/products/espuma/1_0.png",
-          "/products/espuma/1_90.png",
-          "/products/espuma/1_180.png",
-          "/products/espuma/1_hold.png",
-        ],
-        "description": "No hay descripción de este producto.",
-        "references": [
-            "Rodillo De Prueba 9\"\"",
-            "Rodillo De Prueba 7\"\"",
-            "Rodillo De Prueba 5\"\"",
-            "Rodillo De Prueba 3\"\"",
-            "Rodillo De Prueba 2\"\""
-        ]
-    },
-    {
-        "name": "Rodillo De Espuma",
-        "category": "Espuma",
-        "photos": [
-          "/products/espuma/1_0.png",
-          "/products/espuma/1_90.png",
-          "/products/espuma/1_180.png",
-          "/products/espuma/1_hold.png",
-        ],
-        "description": "No hay descripción de este producto.",
-        "references": [
-            "Rodillo De Prueba 9\"\"",
-            "Rodillo De Prueba 7\"\"",
-            "Rodillo De Prueba 5\"\"",
-            "Rodillo De Prueba 3\"\"",
-            "Rodillo De Prueba 2\"\""
-        ]
-    },
-    {
-        "name": "Rodillo De Espuma",
-        "category": "Espuma",
-        "photos": [
-          "/products/espuma/1_0.png",
-          "/products/espuma/1_90.png",
-          "/products/espuma/1_180.png",
-          "/products/espuma/1_hold.png",
-        ],
-        "description": "No hay descripción de este producto.",
-        "references": [
-            "Rodillo De Prueba 9\"\"",
-            "Rodillo De Prueba 7\"\"",
-            "Rodillo De Prueba 5\"\"",
-            "Rodillo De Prueba 3\"\"",
-            "Rodillo De Prueba 2\"\""
-        ]
-    },
-    {
-        "name": "Rodillo De Espuma",
-        "category": "Espuma",
-        "photos": [
-          "/products/espuma/1_0.png",
-          "/products/espuma/1_90.png",
-          "/products/espuma/1_180.png",
-          "/products/espuma/1_hold.png",
-        ],
-        "description": "No hay descripción de este producto.",
-        "references": [
-            "Rodillo De Prueba 9\"\"",
-            "Rodillo De Prueba 7\"\"",
-            "Rodillo De Prueba 5\"\"",
-            "Rodillo De Prueba 3\"\"",
-            "Rodillo De Prueba 2\"\""
-        ]
-    },
-    {
-        "name": "Rodillo De Espuma",
-        "category": "Espuma",
-        "photos": [
-          "/products/espuma/1_0.png",
-          "/products/espuma/1_90.png",
-          "/products/espuma/1_180.png",
-          "/products/espuma/1_hold.png",
-        ],
-        "description": "No hay descripción de este producto.",
-        "references": [
-            "Rodillo De Prueba 9\"\"",
-            "Rodillo De Prueba 7\"\"",
-            "Rodillo De Prueba 5\"\"",
-            "Rodillo De Prueba 3\"\"",
-            "Rodillo De Prueba 2\"\""
-        ]
+        "description": "Rodillo en espuma de densidad de 26mm, ideal para aplicación sobre superficies de alto relieve.",
+        "weight": "150gr.",
+        "long": "22,86cm",
+        "height": "30cm",
+        "density": "26mm",
+        "wire": "5,14mm",
+        "reference": "9″",
     },
 ]
