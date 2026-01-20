@@ -41,6 +41,32 @@
   @apply bg-white py-4 px-7 text-2xl border text-black rounded-4xl cursor-pointer hover:bg-[#F0F0F0] transition-colors duration-200
 }
 
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: var(--font-montserrat);
+  color: #1a202c;
+  background-color: #ffffff;
+  transition: all 0.1s ease-in-out;
+  outline: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+input:focus {
+  border-color: #FF0000;
+  transform: translateY(-1px);
+}
+
+input::placeholder {
+  color: #a0aec0;
+  font-weight: 400;
+}
+
 .active-paint::before {
   content: "";
   position: absolute;
@@ -92,4 +118,40 @@
     left: 100%;
     opacity: 1; 
   }
+}
+
+.card {
+  @apply border border-gray-300 rounded-xl hover:-translate-y-1 transition-all duration-200 hover:shadow-xl
+}
+
+.epoxico {
+  @apply hover:border-[#FF6600]
+}
+
+.microfibra {
+  @apply hover:border-[#092b4e]
+}
+
+.espuma {
+  @apply hover:border-[#e5aeaf]
+}
+
+.badge-epoxico {
+  @apply border border-[#FF6600] rounded-2xl px-2 bg-[#FF6600]/90 text-white
+}
+
+.badge-microfibra {
+  @apply border border-[#092b4e] rounded-2xl px-2 bg-[#092b4e]/90 text-white
+}
+
+.badge-espuma {
+  @apply border border-[#e5aeaf] rounded-2xl px-2 bg-[#e5aeaf]/90 text-white
+}
+
+.badge-premium {
+  @apply border border-[#FF0000] rounded-2xl px-2 bg-[#FF0000]/70 text-white
+}
+
+.view-btn {
+  @apply bg-black border p-2 rounded-xl cursor-pointer w-full hover:bg-black/80 text-white
 }
